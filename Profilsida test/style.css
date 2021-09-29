@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+  
+  body {
+    margin: 0%;
+  }
+
+  .hero-image {
+    background-image: url(https://images.pexels.com/photos/3331094/pexels-photo-3331094.jpeg?cs=srgb&dl=pexels-max-ravier-3331094.jpg&fm=jpg); /* The image used */
+    background-color:black; /* Used if the image is unavailable */
+    height: 100em; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .logo {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  
+ /* header */
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:rgba(10, 10, 10, 0.801);;
+  padding: 2em;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+/* meny */
+  .topnav {
+    overflow:hidden;
+    background-color:rgba(10, 10, 10, 0.801);
+    position: sticky;
+    top:5.8em;
+    
+}
+
+.topnav a {
+float:left;
+display: block;
+color:white;
+text-align: center;
+padding: 1em;
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+.topnav a:hover {
+    color:rgb(224, 131, 131);
+}
+
+/* innehåll */
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:white;
+  text-align: center;
+  margin:auto;
+  padding: 2em;
+  width: 70%;
+  align-items: center;
+  border-radius: 13px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: block;
+}
+
+/* footer */
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgba(10, 10, 10, 0.801);
+    color:white;
+    padding: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display:block;
+    
+}
+
+img {
+  height: 10em;
+  width: 10em;
+
+}
+
+table, td, th {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  text-align: left;
+  margin:auto;
+  margin-top: 2em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p, h1, h3, h4 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+  width:30%;
+  text-align: left;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  color: white;
+}
+
+.länk {
+  color: black;
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+}
